@@ -2,7 +2,7 @@ class batterypercentage
 {
 	public static void main (String [] args)
 	{
-		int batterypercentage =100;
+		int batterypercentage =90;
 		if (batterypercentage>=90 && batterypercentage<=100)
 		{
 			System.out.println("battery full");

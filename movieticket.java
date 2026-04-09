@@ -2,15 +2,18 @@ class movieticket
 {
 	public static void main (String [] args)
 	{
-		byte age = 25;
-		if (age<=12)
+		byte age = 70;
+		if (age<12)
 		{
-			System.out.println("age is a 12 movie ticket is 80");
+			System.out.println("ticket price is 80");
 		}
-		else
+		else if (age >=12 && age<=59)
 		{
-		System.out.println("age is a 12-59 movie ticket is 150");	
+		System.out.println ("ticket price is 150");
 		}
-		System.out.println("age is a >=60 movie ticket is 100");
+		else 
+		{
+		System.out.println ("ticket price is 100");
+		}
 	}
 }
