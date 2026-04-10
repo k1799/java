@@ -5,7 +5,7 @@ class Weeks
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the weeks:");
-		String day1 = sc.nextLine();
+		String day1 = sc.nextLine();//letter space vantha Line varum illyna next mattum kotutha pothum
 		String day2 = sc.nextLine();
 		String day3 = sc.nextLine();
 		String day4 = sc.nextLine();
