@@ -14,13 +14,13 @@ class Spotify
 		int musicians=sc.nextInt();
 		if (musicians==1)
 		{
-			System.out.println("SELECT YOUR FAVORITE SUITIVATION");
+			System.out.println("SELECT YOUR FAVORITE SITUATION");
 			System.out.println("1.MELODY");
 			System.out.println("2.KUTHU");
 			System.out.println("3.MOTIVATIONAL");
 			System.out.println("4.SAD");
-            int type=sc.nextInt();			
-		if (type==1)
+            int situation=sc.nextInt();			
+		if (situation==1)
 		{
 			System.out.println("SELECT YOUR MELODY SONGS");
 			System.out.print("1.Netru Illadha Matram");
@@ -44,8 +44,16 @@ class Spotify
 			{
 				System.out.println("Playing Unakaga valzha Ninakiran");
 			}
+			else if (situation<=4)
+		{
+			System.out.println("THERE ARE NO SITUATION HERE");
 		}
-		else if (types==2)
+		else 
+		{
+			System.out.println("THERE ARE NO SONGS HERE");
+		}
+		}
+		else if (situation==2)
 		{
 			System.out.println("SELECT YOUR KUTHU SONGS");
 			System.out.print("1.Alazha Poran Tamilan ");
@@ -70,8 +78,16 @@ class Spotify
 			{
 				System.out.println("Playing Thaiya Thaiya");
 			}
+			else if (situation<=4)
+		{
+			System.out.println("THERE ARE NO SITUATION HERE");
 		}
-			else if (types==3)
+		else 
+		{
+			System.out.println("THERE ARE NO SONGS HERE");
+		}
+		}
+			else if (situation==3)
 		{
 			System.out.println("SELECT YOUR MOTIVATIONAL SONGS");
 			System.out.print("1.Vande Mataram ");
@@ -96,8 +112,16 @@ class Spotify
 			{
 				System.out.println("Playing Kappal Yeari Poyachu");
 			}
+			else if (situation<=4)
+		{
+			System.out.println("THERE ARE NO SITUATION HERE");
 		}
-			else if (types==4)
+		else 
+		{
+			System.out.println("THERE ARE NO SONGS HERE");
+		}
+		}
+			else if (situation==4)
 		{
 			System.out.println("SELECT YOUR SAD SONGS");
 			System.out.print("1.Poongatrile ");
@@ -122,6 +146,14 @@ class Spotify
 			{
 				System.out.println("Playing Oru poiyavathu Sol");
 			}
+			else if (situation<=4)
+		{
+			System.out.println("THERE ARE NO SITUATION HERE");
+		}
+		else 
+		{
+			System.out.println("THERE ARE NO SONGS HERE");
+		}
 		}
 		}
 		if (musicians==2)
@@ -131,8 +163,8 @@ class Spotify
 			System.out.println("2.KUTHU");
 			System.out.println("3.MOTIVATIONAL");
 			System.out.println("4.SAD");
-            int sutivation=sc.nextInt();
-        if (types==1)
+            int situation=sc.nextInt();
+        if (situation==1)
 		{
 			System.out.println("SELECT YOUR MELODY SONGS");
 			System.out.print("1.Neeyum Nanum Anbe");
@@ -156,8 +188,16 @@ class Spotify
 			{
 				System.out.println("Playing Nee partha vizhigal");
 			}
+			else if (situation<=4)
+		{
+			System.out.println("THERE ARE NO SITUATION HERE");
 		}
-		else if (types==2)
+		else 
+		{
+			System.out.println("THERE ARE NO SONGS HERE");
+		}
+		}
+		else if (situation==2)
 		{
 			System.out.println("SELECT YOUR KUTHU SONGS");
 			System.out.print("1.Vaathi Raid ");
@@ -182,8 +222,16 @@ class Spotify
 			{
 				System.out.println("Playing Vandha Edam");
 			}
+			else if (situation<=4)
+		{
+			System.out.println("THERE ARE NO SITUATION HERE");
 		}
-			else if (types==3)
+		else 
+		{
+			System.out.println("THERE ARE NO SONGS HERE");
+		}
+		}
+			else if (situation==3)
 		{
 			System.out.println("SELECT YOUR MOTIVATIONAL SONGS");
 			System.out.print("1.Velai Illa pattathari ");
@@ -208,8 +256,12 @@ class Spotify
 			{
 				System.out.println("Playing Surviva");
 			}
+			else if (situation<=4)
+		{
+			System.out.println("THERE ARE NO SONGS HERE");
 		}
-			else if (types==4)
+		}
+			else if (situation==4)
 		{
 			System.out.println("SELECT YOUR SAD SONGS");
 			System.out.print("1.Porkanda Singam");
@@ -234,6 +286,14 @@ class Spotify
 			{
 				System.out.println("Playing Jodi Nilave");
 			}
+			else if (situation<=4)
+		{
+			System.out.println("THERE ARE NO SITUATION HERE");
+		}
+		else 
+		{
+			System.out.println("THERE ARE NO SONGS HERE");
+		}
 		}			
 		}
             if (musicians==3)
@@ -242,8 +302,8 @@ class Spotify
 			System.out.println("1.MELODY");
 			System.out.println("2.KUTHU");
 			System.out.println("3.SAD");
-            int sutivation=sc.nextInt();			
-		    if (types==1)
+            int situation=sc.nextInt();			
+		    if (situation==1)
 		{
 			System.out.println("SELECT YOUR MELODY SONGS");
 			System.out.print("1.Unnale");
@@ -267,8 +327,16 @@ class Spotify
 			{
 				System.out.println("Playing Vaseegara");
 			}
+			else if (situation<=4)
+		{
+			System.out.println("THERE ARE NO SITUATION HERE");
 		}
-		else if (types==2)
+		else 
+		{
+			System.out.println("THERE ARE NO SONGS HERE");
+		}
+		}
+		else if (situation==2)
 		{
 			System.out.println("SELECT YOUR KUTHU SONGS");
 			System.out.print("1.Tirunelveli Halwa Da ");
@@ -293,8 +361,16 @@ class Spotify
 			{
 				System.out.println("Playing Aruva Meesai");
 			}
+			else if (situation<=4)
+		{
+			System.out.println("THERE ARE NO SITUATION HERE");
 		}
-			else if (types==3)
+		else 
+		{
+			System.out.println("THERE ARE NO SONGS HERE");
+		}
+		}
+			else if (situation==3)
 		{
 			System.out.println("SELECT YOUR SAD SONGS");
 			System.out.print("1.Venmathiye ");
@@ -319,6 +395,14 @@ class Spotify
 			{
 				System.out.println("Playing Othayile");
 			}
+			else if (situation<=4)
+		{
+			System.out.println("THERE ARE NO SITUATION HERE");
+		}
+		else 
+		{
+			System.out.println("THERE ARE NO SONGS HERE");
+		}
 		}
 		}
             if (musicians==4)
@@ -327,8 +411,8 @@ class Spotify
 			System.out.println("1.MELODY");
 			System.out.println("2.KUTHU");
 			System.out.println("3.SAD");
-            int sutivation=sc.nextInt();			
-		    if (types==1)
+            int situation=sc.nextInt();			
+		    if (situation==1)
 		{
 			System.out.println("SELECT YOUR MELODY SONGS");
 			System.out.print("1.Oru kili uruguthu");
@@ -352,8 +436,16 @@ class Spotify
 			{
 				System.out.println("Playing Raja Raja cholan");
 			}
+			else if (situation<=4)
+		{
+			System.out.println("THERE ARE NO SITUATION HERE");
 		}
-		else if (types==2)
+		else 
+		{
+			System.out.println("THERE ARE NO SONGS HERE");
+		}
+		}
+		else if (situation==2)
 		{
 			System.out.println("SELECT YOUR KUTHU SONGS");
 			System.out.print("1.Ooruvittu ooruvanthu ");
@@ -378,8 +470,16 @@ class Spotify
 			{
 				System.out.println("Playing Aasai Athigam vachu");
 			}
+			else if (situation<=4)
+		{
+			System.out.println("THERE ARE NO SITUATION HERE");
 		}
-			else if (types==3)
+		else 
+		{
+			System.out.println("THERE ARE NO SONGS HERE");
+		}
+		}
+			else if (situation==3)
 		{
 			System.out.println("SELECT YOUR SAD SONGS");
 			System.out.print("1.Kanne Kalaimane ");
@@ -404,17 +504,25 @@ class Spotify
 			{
 				System.out.println("Playing Nilave Vaa");
 			}
+			else if (situation<=4)
+		{
+			System.out.println("THERE ARE NO SITUATION HERE");
+		}
+		else 
+		{
+			System.out.println("THERE ARE NO SONGS HERE");
 		}
 		}
-            if (musicians==4)
+		}
+            if (musicians==5)
 		{
 			System.out.println("SELECT YOUR FAVORITE SUITIVATION");
 			System.out.println("1.MELODY");
 			System.out.println("2.KUTHU");
 			System.out.println("3.MOTIVATIONAL");
 			System.out.println("4.SAD");
-            int sutivation=sc.nextInt();			
-		    if (types==1)
+            int situation=sc.nextInt();			
+		    if (situation==1)
 		{
 			System.out.println("SELECT YOUR MELODY SONGS");
 			System.out.print("1.Aathadi Manasudhan");
@@ -438,8 +546,16 @@ class Spotify
 			{
 				System.out.println("Playing Chinna sirisu");
 			}
+			else if (situation<=4)
+		{
+			System.out.println("THERE ARE NO situation HERE");
 		}
-		else if (types==2)
+		else 
+		{
+			System.out.println("THERE ARE NO SONGS HERE");
+		}
+		}
+		else if (situation==2)
 		{
 			System.out.println("SELECT YOUR KUTHU SONGS");
 			System.out.print("1.Machi open the bottle ");
@@ -464,8 +580,16 @@ class Spotify
 			{
 				System.out.println("Playing Villaiyadu mankatha");
 			}
+			else if (song<=4)
+		{
+			System.out.println("THERE ARE NO SITUATION HERE");
 		}
-			else if (types==3)
+		else 
+		{
+			System.out.println("THERE ARE NO SONGS HERE");
+		}
+		}
+			else if (situation==3)
 		{
 			System.out.println("SELECT YOUR MOTIVATIONAL SONGS");
 			System.out.print("1.Edhirthu Nill ");
@@ -490,8 +614,16 @@ class Spotify
 			{
 				System.out.println("Playing Ungakkule Mirugam");
 			}
+			else if (situation<=4)
+		{
+			System.out.println("THERE ARE NO SITUATION HERE");
 		}
-			else if (types==4)
+			else 
+		{
+			System.out.println("THERE ARE NO SONGS HERE");
+		}
+		}
+			else if (situation==4)
 		{
 			System.out.println("SELECT YOUR SAD SONGS");
 			System.out.print("1.Kadhal valarthen ");
@@ -516,8 +648,16 @@ class Spotify
 			{
 				System.out.println("Playing Ninaithu ninaithu");
 			}
+			else if (situation<=4) 
+		{
+			System.out.println("THERE ARE NO SITUATION HERE");
 		}
-		}		
+			else 
+		{
+			System.out.println("THERE ARE NO SONGS HERE");
+		}
+		}
+		}
 		
 			
 		
