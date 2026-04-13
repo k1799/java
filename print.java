@@ -1,4 +1,4 @@
-class Print
+class Print//print and prindln how to work
 {
 	public static void main (String [] args)
 	{

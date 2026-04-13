@@ -5,9 +5,18 @@ class PositiveNegative
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the numbers:");
-		int positive = sc.nextInt();
-		int negative = sc.nextInt();
-		System.out.println("POSSITIVE NUMBER:"+positive);
-		System.out.println("NEGATIVE NUMBER:"+negative);
+		int num = sc.nextInt();
+		if (num>0)
+		{
+		System.out.println("POSSITIVE NUMBER:"+num);
+		}
+		else if (num<0)
+		{
+		System.out.println("NEGATIVE NUMBER:"+num);
+		}
+		else
+		{
+			System.out.println("ZERO IS A NUTRAL VALUE");
+		}
 	}
 }

@@ -6,7 +6,6 @@ public class DayName {
 
         System.out.print("Enter a number (1-7): ");
         int day = sc.nextInt();
-
         if (day == 1) {
             System.out.println("Monday");
         } else if (day == 2) {
