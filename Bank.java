@@ -16,30 +16,34 @@ class BankLoan
 		boolean customer =sc.nextBoolean();
 		if (age>=21)
 		{
-			System.out.println(name+"YOUR AGE IS ELIGIBLE FOR LOAN:");
+			System.out.println(name+"YOUR AGE IS ELIGIBLE FOR LOAN");
 			if (salery>=20000)
 			{
-				System.out.println(name+"YOUR SALERY IS OK FOR A LOAN:");
+				System.out.println(name+"YOUR SALERY IS OK FOR A LOAN");
 			}
 			else
 			{
-				System.out.println(name+"YOUR LOW SALERY NOT ELIGIBLE FOR A LOAN:");
+				System.out.println(name+"YOUR LOW SALERY NOT ELIGIBLE FOR A LOAN");
 			}
 		    if (cibil >=750)
 			{
-				System.out.println(name+"YOUR ELIGIBLE FOR PREMIMUM LOAN;"+name);
+				System.out.println(name+"YOUR ELIGIBLE FOR PREMIMUM LOAN");
 			}
-			else 
+			else if (cibil>650&&cibil<750)
 			{
-				System.out.println(name+"YOUR ELIGIBLE FOR STANDARED LOAN(LOW CIBIL SCORE):");
+				System.out.println(name+"YOUR ELIGIBLE FOR STANDARED LOAN");
+			}
+			else
+			{
+				System.out.println("LOW CIBIL SCORE YOU HAVE A MINIMUM LOAN");
 			}
 		    if (customer==true)
 			{
-				System.out.println(name+"YOUR ELIGIBLE FOR PREMIMUM LOAN:");
+				System.out.println(name+"YOUR ELIGIBLE FOR PREMIMUM LOAN");
 			}
             else if (customer==false)
 			{
-				System.out.println(name+"YOU WANT BECOME MY CUSTOMER:");
+				System.out.println(name+"YOU WANT BECOME MY CUSTOMER");
 			}			
 		}
 		else
