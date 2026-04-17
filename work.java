@@ -1,4 +1,4 @@
-class Work
+class Work//logical use pani if and else
 {
 	public static void main (String [] args)
 	{

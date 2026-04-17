@@ -9,19 +9,19 @@ class Assignment
 		
 		b = a;
 		b += a;
-		System.out.println("b value is +=:"+b);
+		System.out.println("b value is =:"+b);
 		
 		b = a;
 		b -= a;
-		System.out.println("b value is -=:"+b);
+		System.out.println("b value is =:"+b);
 		
 		b = a;
 		b *= a;
-		System.out.println("b value is *=:"+b);
+		System.out.println("b value is =:"+b);
 		
 		b = a;
 		b /= a;
-		System.out.println("b value is /=:"+b);
+		System.out.println("b value is =:"+b);
 		
 	}
 	

@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;//bank details for using nested if
 class BankLoan
 {
 	public static void main (String [] args)

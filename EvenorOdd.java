@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;//even odd kandpudipathu in if else
 class EvenorOdd
 {
 	public static void main (String [] args)

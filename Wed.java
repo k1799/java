@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;//even number kandupedika scanner and loop use pani
 class Wed
 {
 	public static void main(String [] args)

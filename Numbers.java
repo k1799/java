@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;//nested if use pani armstrong palindrome neon kandupudipathu
 class Numbers
 {
 	public static void main (String [] args)

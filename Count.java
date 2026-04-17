@@ -1,4 +1,4 @@
-class Count
+class Count//count modulus panadha count pani solum sum na add pani solum
 {
 public static void main(String [] args)
 {

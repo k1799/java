@@ -1,4 +1,4 @@
-class Digits
+class Digits//how many digits find
 {
 	public static void main (String [] args)
 	{

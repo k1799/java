@@ -1,4 +1,4 @@
-class Today
+class Today//if and else use program
 {
 	public static void main (String [] args)
 	{

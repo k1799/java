@@ -1,4 +1,4 @@
-class maths
+class maths //5 ala divisable agurthu
 {
 	public static void main (String [] args)
 	{
