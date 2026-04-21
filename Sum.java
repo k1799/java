@@ -1,4 +1,4 @@
-class Sum
+class Sum//Array used this is litreal 
 {
 	public static void main (String [] args)
 	{
