@@ -17,6 +17,7 @@ class MatrixSum
 		{
 			for (int j=0; j<colums; j++)//inner loop colums
 			{
+				System.out.print ("Enter the value of "+ i + " " + j +" ");
 				a[i][j]=sc.nextInt();
 			}
 		}
@@ -26,6 +27,7 @@ class MatrixSum
 		{
 			for (int j=0 ;j<colums; j++)
 			{
+				System.out.print ("Enter the value of "+ i + " " + j +" ");
 				b[i][j]=sc.nextInt();
 			}
 		}
