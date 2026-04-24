@@ -1,5 +1,5 @@
 import java.util.Scanner;//new key word method used
-class ShopBilling
+class ShopBill//menu mathiri question ketangana menu question used this program
 {
 	public static void main (String [] args)
 	{
@@ -36,7 +36,7 @@ class ShopBilling
 				double total=0;
 				for (int i=0;i<price.length;i++)
 				{
-					total = price[i];
+					total += price[i];
 				}
 				double discount=0;
 				if (total>5000)
