@@ -1,0 +1,72 @@
+function syntax
+ 
+ 
+declare
+ 
+returntype functionname(parameter,parameter...)
+{
+ 
+// statements
+}
+ 
+ 
+call
+ 
+classname nickname=new classname();
+nickname.functionname();
+ 
+ 
+types of usedefined function
+ 
+without returntype no argument  
+ 
+ 
+void sum()
+{
+ 
+}
+ 
+ 
+without returntype single argument
+ 
+void sum(int a)
+{
+ 
+}
+ 
+ 
+without returntype multiple argument
+ 
+void sum(int a,int b)
+{
+ 
+ 
+}
+ 
+with returntype no argument
+ 
+int sum()
+{
+return 10;
+}
+ 
+ 
+with returntype single argument
+ 
+ 
+String name(String a )
+{
+ 
+return a;
+}
+ 
+ 
+ 
+with returntype multiple argument
+ 
+float height(float a,float b)
+{
+ 
+return a+b; 
+}
+ 

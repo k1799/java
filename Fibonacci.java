@@ -3,7 +3,7 @@ class FibonacciFunction
 {
 	public static void main (String [] args)
 	{
-		FibonacciFunction f1=new FibonacciFunction ();
+		FibonacciFunction f1=new FibonacciFunction ();//ithu vanthu classname f1=new classname(); ippadi than podanum.
 		Scanner sc=new Scanner(System.in);
 		System.out.println("ENTER NUMBER OF TERMS:");
 		int n=sc.nextInt();
