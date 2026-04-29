@@ -70,7 +70,7 @@ class ArrayFunction
 	int min(int ar[])
 	{
 		int min=ar[0];
-		for (int i=1;i>ar.length;i++)
+		for (int i=1;i<ar.length;i++)
 		{
 			if(ar[i]<min)
 			{
