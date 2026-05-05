@@ -2,6 +2,8 @@ import java.util.Scanner;
 class BankSystem
 {
 	Scanner sc=new Scanner(System.in);
+	double balance=0;
+	double withdraw=0;
 	public static void main(String [] args)
 	{
 		BankSystem b=new BankSystem();
@@ -37,7 +39,6 @@ class BankSystem
 		}
 	}while(result);
 	}
-	double balance=0;
 	void deposit()
 	{
 		System.out.print("ENTER THE AMOUNT:");
@@ -45,7 +46,6 @@ class BankSystem
 		balance +=amt;
 		System.out.println("DEPOSITED AMOUNT:"+balance);
 	}
-	double withdraw=0;
 	void withdraw()
 	{
 		System.out.print("ENTER THE AMOUNT:");

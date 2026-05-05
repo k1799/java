@@ -9,5 +9,13 @@ class Narroing
 		int b=200;
 		byte c=(byte)b;
 		System.out.println(c);
+		double g=120.62543218965421;
+		float f=(float)g;
+		System.out.println(f);
+		
 	}
+	/*| Type   | Precision                
+      float  | less (approx 6-7 digits) 
+      double | more (approx 15 digits) */
+
 }
