@@ -5,9 +5,9 @@ class PassByValue
 		int a=10;
 		int b=20;
 		PassByValue p=new PassByValue();
-		System.out.println(a+b);
+		System.out.println(a-b);
 		p.display(a,b);
-		System.out.println(a*b);
+		System.out.println(a+b);
 		
 	}
 	void display(int a,int b)
@@ -16,4 +16,5 @@ class PassByValue
 		b=40;
 		System.out.println(a+b);
 	}
+	
 }
