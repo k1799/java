@@ -1,4 +1,5 @@
 class Reverse1
+//Reverse The CharArray Without Scanner
 {
 	public static void main(String [] args)
 	{
@@ -10,7 +11,7 @@ class Reverse1
 	
 	void rev(char ar[],int i)
 	{
-		if(ar[i]>=0)
+		if(i>=0)
 		{
 			System.out.println("REVERSE LETTERS="+ar[i]);
 			i--;

@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//1) Find The MaximumValue in Array UsingScanner
 class Maxmimum
 {
 	static Scanner sc=new Scanner(System.in);
@@ -30,7 +31,7 @@ class Maxmimum
 	}
 	int value(int ar[])
 	{
-	    int max=0;
+	    int max=ar[0];
 		
 		for(int i=0;i<ar.length;i++)
 		{

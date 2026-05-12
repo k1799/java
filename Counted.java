@@ -1,14 +1,22 @@
 import java.util.Scanner;
+//Count of 40 in given Array Using Scanner import java.util.Scanner; class Counted
 class Counted
 {
-	static Scanner sc = new Scanner(System.in);
      
 	public static void main(String [] args)
 	{
+	     Scanner sc = new Scanner(System.in);
+		 
 		System.out.println("ENTER THE ARRAY SIZE = ");
 		int size = sc.nextInt();
 
 		int arr[] = new int[size];
+		System.out.println("ENTER THE VALUES");
+		
+		for(int i=0;i<arr.length;i++)
+		{
+			 arr[i]=sc.nextInt();
+		}
 
 		Counted c = new Counted();
 
@@ -19,15 +27,10 @@ class Counted
 
 	int num(int ar[])
 	{
-		System.out.println("ENTER START THE VALUES");
-	    int start=sc.nextInt();
-	    System.out.println("ENTER END THE VALUES");
-	    int end=sc.nextInt();
-		int count = 0;
-
-		for(int i=start; i<end; i++)
+		int count=0;
+		for(int i=0; i<ar.length; i++)
 		{
-			if(ar[i] == ar[i])
+			if(ar[i] == 40)
 			{
 				count++;
 			}
